@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codelegacy_Faq::faq_main_content" title="FAQ" module="Codelegacy_Faq" sortOrder="60" resource="Codelegacy_Faq::main_content"/>
+        <add id="Codelegacy_Faq::question" title="Questions" module="Codelegacy_Faq" sortOrder="61" parent="Codelegacy_Faq::faq_main_content" action="faq/question" resource="Codelegacy_Faq::question"/>
+        <add id="Codelegacy_Faq::category" title="Categories" module="Codelegacy_Faq" sortOrder="62" parent="Codelegacy_Faq::faq_main_content" action="faq/category" resource="Codelegacy_Faq::category"/>
+    </menu>
+</config>
