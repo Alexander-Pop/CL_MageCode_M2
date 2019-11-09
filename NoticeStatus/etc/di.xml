@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Codelegacy\NoticeStatus\Api\NoticeRepositoryInterface" type="Codelegacy\NoticeStatus\Model\NoticeRepository" />
+    <preference for="Codelegacy\NoticeStatus\Api\Data\NoticeInterface" type="Codelegacy\NoticeStatus\Model\Notice" />
+    <preference for="Codelegacy\NoticeStatus\Api\NoticeApiInterface" type="Codelegacy\NoticeStatus\Model\NoticeApi" />
+</config>
