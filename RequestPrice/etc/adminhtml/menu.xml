@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codelegacy_RequestPrice::main_content" title="Request Price" module="Codelegacy_RequestPrice" sortOrder="60" resource="Codelegacy_RequestPrice::main_content"/>
+        <add id="Codelegacy_RequestPrice::request" title="Requests" module="Codelegacy_RequestPrice" sortOrder="61" parent="Codelegacy_RequestPrice::main_content" action="request/price" resource="Codelegacy_RequestPrice::request"/>
+    </menu>
+</config>

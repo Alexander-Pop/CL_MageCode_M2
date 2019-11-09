@@ -1,0 +1,25 @@
+{
+  "name": "codelegacy/request-price",
+  "description": "Magento 2 - Request Price",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": [
+    "MIT"
+  ],
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Sasha"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Codelegacy\\RequestPrice\\": ""
+    }
+  }
+}
