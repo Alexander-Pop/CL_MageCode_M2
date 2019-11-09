@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codelegacy_SimpleCrud::review_content" title="Simple CRUD" module="Codelegacy_SimpleCrud" sortOrder="60" resource="Codelegacy_SimpleCrud::module"/>
+        <add id="Codelegacy_Crud::review" title="Review" module="Codelegacy_SimpleCrud" sortOrder="1" parent="Codelegacy_SimpleCrud::review_content" action="review/index" resource="Codelegacy_SimpleCrud::review"/>
+    </menu>
+</config>

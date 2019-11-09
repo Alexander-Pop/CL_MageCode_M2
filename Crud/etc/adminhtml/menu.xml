@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codelegacy_Crud::main_content" title="CRUD" module="Codelegacy_Crud" sortOrder="60" resource="Codelegacy_Crud::content"/>
+        <add id="Codelegacy_Crud::category" title="Category" module="Codelegacy_Crud" sortOrder="1" parent="Codelegacy_Crud::main_content" action="crud/category" resource="Codelegacy_Crud::category"/>
+        <add id="Codelegacy_Crud::post" title="Post" module="Codelegacy_Crud" sortOrder="2" parent="Codelegacy_Crud::main_content" action="crud/post" resource="Codelegacy_Crud::post"/>
+        <add id="Codelegacy_Crud::tag" title="Tag" module="Codelegacy_Crud" sortOrder="3" parent="Codelegacy_Crud::main_content" action="crud/tag" resource="Codelegacy_Crud::tag"/>
+    </menu>
+</config>
