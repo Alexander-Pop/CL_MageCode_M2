@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference 
+    	for="Codelegacy\EntityModelRepository\Api\TestEntityRepositoryInterface" 
+    	type="Codelegacy\EntityModelRepository\Model\TestEntityRepository" 
+    />
+    <preference 
+    	for="Codelegacy\EntityModelRepository\Api\Data\TestEntityInterface" 
+    	type="Codelegacy\EntityModelRepository\Model\TestEntity" 
+    />
+    <preference 
+    	for="Codelegacy\EntityModelRepository\Api\Data\TestEntitySearchResultInterface" 
+    	type="Codelegacy\EntityModelRepository\Model\TestEntitySearchResult" 
+    />
+</config>

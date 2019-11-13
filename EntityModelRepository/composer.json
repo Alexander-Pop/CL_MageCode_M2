@@ -1,0 +1,22 @@
+{
+    "name": "codelegacy/module-entitymodelrepository",
+    "description": "Create new table entity, model and a repository",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codelegacy\\EntityModelRepository\\": ""
+        }
+    }
+}
+
