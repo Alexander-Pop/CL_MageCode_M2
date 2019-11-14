@@ -1,6 +1,6 @@
 # Magento 2 - Request Price extension 
 A sample module that show what and how to use instead of deprecated Registry class since Magento 2.3.
-![Add back to category link to product page](/MageCode/RegistryAlternative/view/frontend/web/images/back-to-category.jpg "Back to category link on product page")
+![Add back to category link to product page](https://github.com/Alexander-Pop/MageCode/blob/master/docs/BackToCategory.jpg "Back to category link on product page")
 
 # This module provides 2 service classes as example:
 * get current product;
