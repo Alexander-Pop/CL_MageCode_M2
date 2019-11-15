@@ -1,0 +1,21 @@
+{
+    "name": "codelegacy/module-entitynodelrepositoryblog",
+    "description": "Exanple how to use Model, Repository",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sasha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codelegacy\\EntityModelRepositoryBlog\\": ""
+        }
+    }
+}

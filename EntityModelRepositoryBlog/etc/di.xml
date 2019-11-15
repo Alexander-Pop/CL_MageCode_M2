@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference 
+		for="Codelegacy\EntityModelRepositoryBlog\Api\BlogRepositoryInterface" 
+		type="Codelegacy\EntityModelRepositoryBlog\Model\BlogRepository"
+	/>
+	<preference 
+		for="Codelegacy\EntityModelRepositoryBlog\Api\Data\BlogInterface" 
+		type="Codelegacy\EntityModelRepositoryBlog\Model\Data\Blog"
+	/>
+	<preference 
+		for="Codelegacy\EntityModelRepositoryBlog\Api\Data\BlogSearchResultsInterface" 
+		type="Magento\Framework\Api\SearchResults"
+	/>
+</config>
