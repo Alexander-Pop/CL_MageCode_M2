@@ -1,0 +1,21 @@
+{
+    "name": "codelegacy/module-sendbasicemail",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sasha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codelegacy\\SendBasicEmail\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
