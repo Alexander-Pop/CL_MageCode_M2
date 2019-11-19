@@ -6,8 +6,8 @@ namespace Codelegacy\EntityModelRepositoryBlog\Api\Data;
 interface BlogInterface extends \Magento\Framework\Api\ExtensibleDataInterface
 {
 
-    const BLOG_ID = 'blog_id';
-    const NAME = 'name';
+    const BLOG_ID     = 'blog_id';
+    const NAME        = 'name';
     const DESCRIPTION = 'description';
 
     /**
