@@ -8,6 +8,9 @@ use Magento\Framework\Api\ExtensibleDataInterface;
 
 interface TestEntityInterface
 {
+    const ENTITY_ID = 'entity_id';
+    const TITLE     = 'title';
+    
     /**
      * @return int
      */

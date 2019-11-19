@@ -3,18 +3,14 @@
 
 namespace Codelegacy\EntityModelRepository\Model;
 
-
 use Codelegacy\EntityModelRepository\Api\Data\TestEntityInterface;
 use Magento\Framework\Model\AbstractModel;
 
 class TestEntity extends AbstractModel implements TestEntityInterface
 {
-    const ENTITY_ID = 'entity_id';
-    const TITLE = 'title';
-
     protected function _construct()
     {
-        $this->_init(ResourceModel\TestEntity::class);
+        $this->_init(Codelegacy\EntityModelRepository\Model\ResourceModel\TestEntity::class);
     }
 
     /**
@@ -22,7 +18,7 @@ class TestEntity extends AbstractModel implements TestEntityInterface
      */
     public function getTitle()
     {
-        return $this->_getData(self::TITLE);
+        return $this->getData(self::TITLE);
     }
 
     /**
@@ -32,5 +28,26 @@ class TestEntity extends AbstractModel implements TestEntityInterface
     public function setTitle($title)
     {
         $this->setData(self::TITLE, $title);
+    }
+
+     /**
+     * Get ID
+     *
+     * @return int|null
+     */
+    public function getId()
+    {
+        return $this->getData(self::ENTITY_ID);
+    }
+
+    /**
+     * Set ID
+     *
+     * @param int $id
+     * @return $this
+     */
+    public function setId($id)
+    {
+        return $this->setData(self::ENTITY_ID, $id);
     }
 }
