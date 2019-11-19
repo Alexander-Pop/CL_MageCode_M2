@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by apopov@usgoldbureau.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:/etc/system_file.xsd">
+    <system>
+        <tab id="cl_extensions" sortOrder="999" translate="label">
+            <label>Codelegacy Extensions</label>
+        </tab>
+        <section id="cron_example">
+            <group 
+                id="image_optimiser_settings" 
+                translate="label comment" 
+                type="text" 
+                sortOrder="10" 
+                showInDefault="1" 
+                showInWebsite="1" 
+                showInStore="1"
+            >
+                <field 
+                    id="image_optimiser_schedule" 
+                    translate="label comment" 
+                    type="text" 
+                    sortOrder="10" 
+                    showInDefault="1" 
+                    showInWebsite="1" 
+                    showInStore="1" 
+                    canRestore="1"
+                >
+                    <label>Image Optimiser Schedule</label>
+                    <comment>
+                        <![CDATA[
+                            This will allow you to define schedule how often you
+                            want to optimise images
+                             
+                            <pre>
+                            * * * * *
+                            | | | | |
+                            | | | | +---- Day of the Week   (range: 1-7, 1 standing for Monday)
+                            | | | +------ Month of the Year (range: 1-12)
+                            | | +-------- Day of the Month  (range: 1-31)
+                            | +---------- Hour              (range: 0-23)
+                            +------------ Minute            (range: 0-59)
+                            Example: 0 0 * * * Daily at midnight
+                            </pre>
+         
+                            ]]>
+                    </comment>
+                </field>  
+            </group>
+        </section>
+    </system>
+</config>
