@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--
+/* Glory to Ukraine! Glory to the heros! */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="sales">
+            <group 
+                id="success_access" 
+                translate="label" 
+                type="text" 
+                sortOrder="300" 
+                showInDefault="1" 
+                showInWebsite="1" 
+                showInStore="1"
+            >
+                <label>Success Page Access</label>
+                <field 
+                    id="enable" 
+                    translate="label" 
+                    type="select" 
+                    sortOrder="30" 
+                    showInDefault="1" 
+                    showInWebsite="1" 
+                    showInStore="0"
+                >
+                    <label>Enable</label>
+                    <comment><![CDATA[Enable access to debug checkout success page]]></comment>
+
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field 
+                    id="key_length"
+                    translate="label" 
+                    type="text"
+                    sortOrder="30" 
+                    showInDefault="1" 
+                    showInWebsite="1" 
+                    showInStore="1"
+                >
+                    <label>Secure Key Length</label>
+                    <comment>Use number from 12 to 22 for more secure key (if empty, 12 is used)</comment>
+                    <validate>validate-digits-range digits-range-12-22 validate-digits</validate>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                </field>
+                <field 
+                    id="secure_key_refresh" 
+                    translate="label" 
+                    type="button" 
+                    sortOrder="40" 
+                    showInDefault="1" 
+                    showInWebsite="1" 
+                    showInStore="0"
+                >
+                    <label>Secure Key</label>
+                    <comment><![CDATA[Generate secure key for protected access. (<span style="color: red;"><b>IMPORTANT</b>: Defauld secure key length is 12. To use custom length, put value in <b>Secure Key Length</b> field above and save configuration before generating new key. </span>)]]></comment>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                    <frontend_model>Codelegacy\SuccessAccess\Block\Adminhtml\System\Config\CreateNewKey</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
