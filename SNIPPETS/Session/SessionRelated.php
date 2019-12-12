@@ -145,18 +145,14 @@ To manage sessions, Magento uses the Magento \ Framework \ Session \ SessionMana
 Magento 2 enables you to set up cookies and session, which is, as we now realize, a rather important aspect to us. Navigate to settings via the following path Admin Panel -> Stores -> Configuration -> Web -> Default Cookie Settings / Session Validation Settings.
 
 The following functions are of particular interest to Magento admins and developers:
-Andrey_Dubina
-Partner With Us
-Let's discuss how to grow your business. Get a Free Quote.
-Talk to Andrey
 
-    Cookie Lifetime – the number of seconds the information about our presence on the site will be stored, and when we refresh the page this time will last. By default, lifetime is set at 3600 = 1 hour.
-    Cookie Path – the storage path for cookies.
-    Domain – if empty, then the default domain of the store is used.
-    Use HTTP Only – allows you to use only the HTTP protocol, leave the value “Yes” to secure yourself.
-    Cookie Restriction Mode – includes a front-end notification about the use of cookies so that the store will function at its full capacity, and the client must agree with Privacy Policy.
+    Cookie Lifetime             – the number of seconds the information about our presence on the site will be stored, and when we refresh the page this time will last. By default, lifetime is set at 3600 = 1 hour.
+    Cookie Path                 – the storage path for cookies.
+    Domain                      – if empty, then the default domain of the store is used.
+    Use HTTP Only               – allows you to use only the HTTP protocol, leave the value “Yes” to secure yourself.
+    Cookie Restriction Mode     – includes a front-end notification about the use of cookies so that the store will function at its full capacity, and the client must agree with Privacy Policy.
     Session Validation Settings – here we set the permissions and whether the system will check the server variables listed below.
-    Use SID on Storefront – this option allows the system to recognize us when we move from one store to another.
+    Use SID on Storefront       – this option allows the system to recognize us when we move from one store to another.
 
 default cookies settings
 What data does the Magento 2 session store
