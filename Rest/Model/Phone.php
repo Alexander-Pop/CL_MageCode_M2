@@ -7,7 +7,7 @@ use Codelegacy\Rest\Api\Data\PhoneInterface;
 
 class Phone implements PhoneInterface
 {
-    const ID = 'id';
+    const ID    = 'id';
     const PRICE = 'price';
     const BRAND = 'brand';
     const TITLE = 'title';
