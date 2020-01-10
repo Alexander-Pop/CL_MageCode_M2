@@ -29,15 +29,15 @@ Once the module installed , run the command
 `bin/magento setup:upgrade` and  `bin/magento setup:di:compile`
 
 
-![alt text](https://raw.githubusercontent.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-login.png "Login page")
+![alt text](https://github.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-login.png "Login page")
 
 
-![alt text](https://raw.githubusercontent.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-login2.png "Login page")
+![alt text](https://github.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-login2.png "Login page")
 
 
-![alt text](https://raw.githubusercontent.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-products.png "Products page")
+![alt text](https://github.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-products.png "Products page")
 
-![alt text](https://raw.githubusercontent.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-products2.png "Products page")
+![alt text](https://github.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-products2.png "Products page")
 
 
-![alt text](https://raw.githubusercontent.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-settings.png "Settings page")
+![alt text](https://github.com/Alexander-Pop/MageCode/master/view/adminhtml/web/images/examples/demo-settings.png "Settings page")
