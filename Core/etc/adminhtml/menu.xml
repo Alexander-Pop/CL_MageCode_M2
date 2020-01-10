@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/* Glory to Ukraine! Glory to the heros! */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add 
+        	id="Codelegacy_Core::menu" 
+        	title="Codelegacy" 
+        	module="Codelegacy_Core" 
+        	sortOrder="50" 
+        	resource="Codelegacy_Core::menu"
+        />
+    </menu>
+</config>

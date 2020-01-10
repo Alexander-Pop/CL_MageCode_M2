@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <codelegacy_shownotice>
+            <general>
+                <enabled>1</enabled>
+                <display_admin_login>1</display_admin_login>
+                <instance_type>custom</instance_type>
+                <custom_label><![CDATA[Localhost]]></custom_label>
+                <custom><![CDATA[FFFFFF]]></custom>
+            </general>
+        </codelegacy_shownotice>
+    </default>
+</config>

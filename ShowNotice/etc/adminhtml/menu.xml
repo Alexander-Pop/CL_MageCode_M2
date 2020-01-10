@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add 
+        	id="Codelegacy_ShowNotice::shownotice" 
+        	title="Instance Reminder" 
+        	module="Codelegacy_ShowNotice" 
+        	sortOrder="5" 
+        	resource="Codelegacy_ShowNotice::shownotice"
+            parent="Codelegacy_Core::menu"
+        />
+        <add 
+        	id="Codelegacy_ShowNotice::shownotice_settings" 
+        	title="Configuration" 
+        	module="Codelegacy_ShowNotice" 
+        	sortOrder="10" 
+        	resource="Codelegacy_ShowNotice::shownotice_settings"
+            parent="Codelegacy_ShowNotice::shownotice" 
+            action="adminhtml/system_config/edit/section/codelegacy_shownotice"
+        />
+    </menu>
+</config>

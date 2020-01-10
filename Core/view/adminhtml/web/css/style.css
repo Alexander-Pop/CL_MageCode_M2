@@ -1,0 +1,21 @@
+.codelegacy-tab strong {
+    background: url(../images/codelegacy_logo.svg) no-repeat;
+    background-size: 40px;
+    background-position-y: -3px;
+    padding-left: 40px;
+
+}
+
+#menu-codelegacy-core-menu > a {
+    padding-top: 2px;
+}
+
+#menu-codelegacy-core-menu > a:before {
+    content: '';
+    background: url(../images/codelegacy_logo.svg) no-repeat;
+    background-size: 55px;
+    background-position-y: -4px;
+    margin-top: 10px;
+    height: 28px;
+    background-position-x: 10px;
+}

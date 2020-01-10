@@ -1,0 +1,24 @@
+<?php
+/* Glory to Ukraine! Glory to the heros! */
+/** @var $block \Magento\Framework\View\Element\Template */
+/** @var $helper \Codelegacy\ShowNotice\Helper\Config */
+$helper = $this->helper('\Codelegacy\ShowNotice\Helper\Config')
+?>
+
+<?php if ($helper->isEnabled()) : ?>
+    <div id="codelegacy_ribbon" style="background-color: <?php echo $helper->getColorByInstance() ?>">
+        <div class="logo">
+            <span style="color: <?php echo $helper->getLabelColor() ?> "><?php echo $helper->getInstanceName() ?></span>
+        </div>
+    </div>
+
+    <script type="text/x-magento-init">
+        {
+            "#codelegacy_ribbon": {
+                "Codelegacy_ShowNotice/js/ribbon" : {}
+            }
+        }
+
+    </script>
+<?php endif; ?>
+

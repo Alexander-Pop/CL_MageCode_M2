@@ -1,0 +1,14 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Codelegacy_ShowNotice::css/style.css"/>
+    </head>
+    <body>
+        <referenceContainer name="notification.window">
+            <block 
+            	name="codelegacy.shownotice" 
+            	template="Codelegacy_ShowNotice::ribbon.phtml"
+            />
+        </referenceContainer>
+    </body>
+</page>
+
